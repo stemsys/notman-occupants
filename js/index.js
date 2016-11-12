@@ -4,5 +4,6 @@ var organizations = {
 
 var people = {
   "Emma Williams": "Person/Emma_Williams/",
+  "Ritika Dutt": "Person/Ritika_Dutt/",
   "Marek Zaluski": "Person/Marek_Zaluski/"
 };
