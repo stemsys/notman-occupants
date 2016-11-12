@@ -19,7 +19,7 @@
           "@type": "schema:Organization",
           "schema:name": "OSMO Foundation",
           "schema:url": "https://maison-notman-house.github.io/notman-occupants/Organization/OSMO_Foundation/",
-          "schema:logo": "https://maison-notman-house.github.io/notman-occupants/Organization/OSMO_Foundation/890x373.jpg",
+          "schema:logo": "https://maison-notman-house.github.io/notman-occupants/Organization/OSMO_Foundation/768x768.jpg",
           "schema:sameAs": [
           ]
         }
@@ -29,7 +29,14 @@
   </head>
   <body ng-app="visualisation">
     <div ng-controller="MetadataCtrl" class="text-center">
-      {{story}}
+      <div class="row">
+        <div class="col-md-6">
+          <img ng-src="{{imgUrl}}" class="img-responsive center-block">
+        </div>
+        <div class="col-md-6">
+          <tt> {{story}} </tt>
+        </div>
+      </div>
     </div>
     <footer class="footer">
       <img src="../../images/Notman-HackTheHouse-footer.png"

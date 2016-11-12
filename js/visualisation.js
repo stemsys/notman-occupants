@@ -21,5 +21,6 @@ angular.module('visualisation', [ 'reelyactive.cormorant' ])
 
   cormorant.getStory(url, function(story, url) {
     $scope.story = story;
+    $scope.img = story['@graph'][0]['schema:logo']; // TODO: make robust
   });
 });
