@@ -9,17 +9,17 @@ body {
 
 /* Begin Bootstrap 3 buttons override */
 .btn-primary {
-  background: #0770a2;
-  border-color: #06628e;
+  background: #5a3c59;
+  border-color: #4f354e;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-  background: #5a3c59;
+  background: #4f354e;
   border-color: #5a3c59;
 }
  
 .btn-primary:active, .btn-primary.active {
-  background: #5a3c59;
+  background: #4f354e;
   border-color: #5a3c59;
 }
 /* End Bootstrap 3 buttons override */
