@@ -12,6 +12,35 @@
   </head>
   <body ng-app="occupants">
     <div ng-controller="InteractionCtrl" class="container-fluid">
+      <div class="text-center">
+        <h1> Notman Occupants Directory </h1>
+        <div class="center-block">
+          <div class="btn-group" uib-dropdown>
+            <button id="select-protocol" type="button"
+                    class="btn btn-default" uib-dropdown-toggle>
+              {{organization}} <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" uib-dropdown-menu role="menu"
+                aria-labelledby="select-protocol">
+              <li role="menuitem" ng-repeat="(name, url) in organizations">
+                <a ng-href="{{url}}"> {{name}} </a>
+              </li>
+            </ul>
+          </div>
+          <div class="btn-group" uib-dropdown>
+            <button id="select-protocol" type="button"
+                    class="btn btn-default" uib-dropdown-toggle>
+              {{person}} <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" uib-dropdown-menu role="menu"
+                aria-labelledby="select-protocol">
+              <li role="menuitem" ng-repeat="(name, url) in people">
+                <a ng-href="{{url}}"> {{name}} </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="footer">
       <img src="images/Notman-HackTheHouse-footer.png"
