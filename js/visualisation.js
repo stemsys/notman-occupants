@@ -20,7 +20,9 @@ angular.module('visualisation', [ 'reelyactive.cormorant' ])
   var url = $location.absUrl();
 
   cormorant.getStory(url, function(story, url) {
-    $scope.story = story;
-    $scope.imgUrl = story['@graph'][0]['schema:logo']; // TODO: make robust
+    $scope.story = JSON.stringify(story, null, '  ');
+    $scope.imgUrl = story['@graph'][0]['schema:image'] ||
+                    story['@graph'][0]['schema:logo'] ||
+                    '../../images/image-unavailable.png';
   });
 });
