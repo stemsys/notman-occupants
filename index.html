@@ -13,6 +13,8 @@
   <body ng-app="occupants">
     <div ng-controller="InteractionCtrl" class="container-fluid">
       <div class="text-center">
+        <img src="images/william-notman.jpg"
+             class="img-responsive center-block">
         <h1> Notman Occupants Directory </h1>
         <div class="center-block">
           <div class="btn-group" uib-dropdown>
@@ -29,7 +31,7 @@
           </div>
           <div class="btn-group" uib-dropdown>
             <button id="select-protocol" type="button"
-                    class="btn btn-default" uib-dropdown-toggle>
+                    class="btn btn-primary" uib-dropdown-toggle>
               {{person}} <span class="caret"></span>
             </button>
             <ul class="dropdown-menu" uib-dropdown-menu role="menu"
