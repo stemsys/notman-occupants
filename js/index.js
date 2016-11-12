@@ -3,5 +3,6 @@ var organizations = {
 };
 
 var people = {
+  "Emma Williams": "Person/Emma_Williams/",
   "Marek Zaluski": "Person/Marek_Zaluski/"
 };
