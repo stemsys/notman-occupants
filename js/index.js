@@ -7,5 +7,6 @@ var notman_organizations = {
 var notman_people = {
   "Emma Williams": "Person/Emma_Williams/",
   "Ritika Dutt": "Person/Ritika_Dutt/",
-  "Marek Zaluski": "Person/Marek_Zaluski/"
+  "Marek Zaluski": "Person/Marek_Zaluski/",
+  "Andre Mas": "Person/Andre_Mas/"
 };
