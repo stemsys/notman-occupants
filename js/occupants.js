@@ -13,8 +13,8 @@ angular.module('occupants', [ 'ui.bootstrap' ])
  * Handles the manipulation of all variables accessed by the HTML view.
  */
 .controller('InteractionCtrl', function($scope) {
-  $scope.organizations = organizations;
+  $scope.organizations = notman_organizations;
   $scope.organization = 'Select Organization';
-  $scope.people = people;
+  $scope.people = notman_people;
   $scope.person = 'Select Person';
 });
