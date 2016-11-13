@@ -1,5 +1,6 @@
 var notman_organizations = {
-  "OSMO Foundation": "Organization/OSMO_Foundation/"
+  "OSMO Foundation": "Organization/OSMO_Foundation/",
+  "PayHero": "Organization/PayHero/"
 };
 
 var notman_people = {
